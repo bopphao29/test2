@@ -1,0 +1,201 @@
+#first{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+}
+
+#first label{
+    flex-grow: 1;
+    margin-top: 40px;
+}
+
+#first label a:hover{
+    border: 1px solid yellowgreen;
+}
+
+#first img{
+    flex-grow: 2;
+}
+
+#first label a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#menu #menungang ul{
+    z-index: 999;
+}
+
+#ong{
+    z-index: 0;
+}
+
+#menu li{
+    list-style: none;
+}
+
+#menu #menungang a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    height: 50px;
+    min-width: 150px;
+    line-height: 50px;
+    padding: 0px 10px;
+}
+
+#menungang a:hover{
+    background-color: rgba(133, 2, 208, 0.836);
+}
+
+#menu ul{
+    background-color: rgb(48, 45, 45);
+    padding: 0;
+}
+
+#menungang > li{
+    display: inline;
+    position: relative;
+}
+
+#menungang ul{
+    display: none;
+    position: absolute;
+}
+
+#menungang li:hover > ul{
+    display: block;
+    background-color: rgb(1, 1, 9);
+}
+
+#menungang > li > ul{
+    left: 0;
+}
+
+#chat{
+    background-color: rgb(247, 246, 248);
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border: 1px solid rgb(8, 8, 8);
+}
+
+#chat #an{
+    display: none;
+}
+
+#an:checked + #kclh{
+    display: none;
+}
+
+#ong img{
+    width: 100%;
+    height: 500px;
+}
+
+#ong {
+    position: relative;
+}
+
+#ong #thongtin, #ong h1,#ong #ul1, #ong #caothu{
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+#ong h1{
+    left: 150px;
+    top: 50px;
+}
+
+#ong ul{
+    top: 120px;
+    left: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ong ul li{
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(0, 0%, 100%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#ong #caothu{
+    width: 200px;
+    height: 200px;
+}
+
+#ong img {
+    left: 350px;
+    top: 100px
+}
+
+#ong #caothu{
+    margin-left: 100px;
+}
+
+#level{
+    display: flex;
+}
+
+#level img{
+    flex-grow: 1;
+    width: 30px;
+    height: 120px;
+}
+
+div#slogan{
+    font-weight: 500;
+    color: yellow;
+    text-align: center;
+    background-color: blueviolet;
+    width: 180px;
+    height: 50px;
+    position: fixed;
+    left: -60px;
+    top: 50%;
+    transform: rotateZ(-90deg);
+    -webkit-transform: rotateZ(-90deg);
+    -moz-transform: rotateZ(-90deg);
+    -ms-transform: rotateZ(-90deg);
+    -o-transform: rotateZ(-90deg);
+}
+
+.tooltip{
+    position: relative;
+    color: rgba(255, 0, 0, 0.929);
+}
+
+.tooltip span{
+    display: none;
+    background-color: black;
+    color: wheat;
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    min-width: 280px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.tooltip:hover span{
+    display: block;
+}
+
+#vituongphep{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+#vituongphep img{
+    flex-grow: 1;
+    height: 150px;
+    width: 15%;
+    margin-left: 10px;
+    line-height: 150px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <!-- testing chat -->
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "127492080245881");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v16.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- end testing chat -->
+    <div id="first">
+        <label class="left"><a href="">Trang Chủ</a></label>
+        <label class="left"><a href="">Tin Tức</a></label>
+        <label class="left"><a href="">Học Viên</a></label>
+        <img style="width: 200px; height: 150px;" src="https://cdn.vn.garenanow.com/web/kg/home/images/logo-new.png">
+        <label class="right"><a href="">Giftcode</a></label>
+        <label class="right"><a href="">Tài Khoản</a></label>
+        <label class="right"><a href="">Hợp Tác</a></label>
+    </div>
+    <div id="menu">
+        <ul id="menungang">
+            <li>
+                <a href="">Tướng</a>
+                <ul>
+                    <li><a href="">Support</a></li>
+                    
+                    <li><a href="">AD</a></li>
+                    <li><a href="">Mid</a></li>
+                    <li><a href="">Rừng</a></li>
+                    <li><a href="">Top</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Sự kiện</a>
+                <ul>
+                    <li><a href="">Sinh nhật liên quân</a></li>
+                    <li><a href="">Sale trang phục</a></li>
+                    <li><a href="">Hè náo nhiệt</a></li>
+                    <li><a href="">Tết đoàn viên</a></li>
+                    <li><a href="">Valentine</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Bạn bè</a>
+                <ul>
+                    <li><a href="">Tri kỉ</a></li>
+                    <li><a href="">Người yêu</a></li>
+                    <li><a href="">Bạn thân</a></li>
+                    <li><a href="">Anh em</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Shop</a>
+                <ul>
+                    <li><a href="">Qùa cáp</a></li>
+                    <li><a href="">Vật phẩm</a></li>
+                    <li><a href="">Mảnh tướng</a></li>
+                    <li><a href="">Mảnh trang phục</a></li>
+                </ul>
+            </li>
+            <li><a href="">Vòng quay may mắn</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div id="ong" style="width: 100%; height: 500px; background-color: rgb(167, 140, 140);">
+        <h1>Thông tin cơ bản về Liên Quân Mobile</h1>
+        <ul id="ul1">
+            <li>Thể loại: MOBA</li>
+            <li>Đồ hoạ: 3D</li>
+            <li>Chế độ: Multiplayer</li>
+            <li>Nhà phát hành: Tencent.</li>
+            <li>Ngày ra mắt: 21/11/2016</li>
+        </ul>
+        <img id="bgrlq" src="https://lvgames.net/lqm/wp-content/uploads/2020/10/hinh_nen_ryoma_samurai_huyen_thoai_download.jpg">
+        <img id="caothu" src="https://cdn.shopify.com/s/files/1/0250/9003/1694/products/lienquan_26d054c5-5355-49f8-af49-65ef2f7efd87_480x480_crop_center.png?v=1609143421">
+    </div>
+    <div style="width: 78%; height: 350px; background-color: rgb(179, 179, 240); margin-left: 80px;">
+        <h3>Cung điện ánh sáng (Tháp Quang Minh)</h3>
+        <p style="font-size: 20px;">Đây là thế lực tượng trưng cho các vị thần, thuộc phe chính nghĩa, đối lập hoàn toàn lũ ma quỷ do Volkath cầm đầu.</br> Người lãnh đạo cung điện này là nữ thần<span class="tooltip"> Ilumia <span> là vị tướng hệ phép, có thể chơi ở vai trò support, là lãnh đạo phe “chính phái” </span></span>, Ilumia là tướng thứ 37, nữ thần nay sở hữu mọi thứ như nhan sắc, sự thông thái, sức mạnh và quyền lực. Với khả năng đối ngoại khéo léo, Cung Điện Ánh Sáng là một điểm đến của rất nhiều anh hùng, chiến binh có chung một lý tưởng chống lại bè lũ ma quỷ hắc ám. Hỗ trợ cho Ilumia là nữ hộ thần <span class="tooltip"> Lauriel <span>là vị tướng pháp sư có khả năng “cân 5” mạnh mẽ nhất trong Liên Quân Mobile với bộ kỹ năng hồi chiêu liên tục</span></span>, các chiến binh hùng mạnh như Mũi Tên Mặt Trời Yorn, Đại Thiền Sư <span class="tooltip">Jina <span>Càng đông người càng khỏe</span></span> và còn chủ tịch học viện pháp sư <span class="tooltip"> một huyền thoại<span>cũng là vị tướng phép có kỹ năng cấu rỉa khống chế cực kỳ khó chịu,</span></span>, ...</p>
+        <div id="vituongphep">
+            <img src="https://lienquan.garena.vn/files/posts/e7a80d70ff2b941594a0b0ade255ecb259633457b9f13.jpg">
+            <img src="https://i.ytimg.com/vi/5xc5O5ahi4E/maxresdefault.jpg">
+            <img src="https://i.ytimg.com/vi/l4tEQ6Lr6YU/maxresdefault.jpg">
+            <img src="https://i.ytimg.com/vi/PNgOpy24hOA/maxresdefault.jpg">
+        </div>
+    </div>
+    <div id="chat" style="max-width: 250px;max-height: 350px; border-radius: 2px;">
+        <label>Liên hệ với chúng tôi.</lable>
+        <label for="an" style="border: 1px solid black; margin-left: 50px;"> X </label>
+        <input id="an" type="checkbox">
+        <div id="kclh">
+            <div id="kc" style="width: 210px; height: 220px; border: 1px solid black;"></div>
+            <div id="lh">
+                <input type="">
+                <button><a href="">Gửi</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="slogan">
+        Liên quân mobile - Thắng bại tại WiFi
+    </div>
+    
+   
+</body>
+</html>
